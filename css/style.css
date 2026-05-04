@@ -1,6 +1,6 @@
 :root {
-  --clr-primary: hsl(264, 57%, 64%);
-  --clr-purple: hsl(270, 100%, 25%);
+  --clr-primary: hsl(0, 0%, 0%);
+  --clr-green: hsl(155, 100%, 25%);
   --clr-neutral75: hsla(27, 100%, 98%, 0.85);
   --clr-white: hsl(0, 0%, 100%);
   --clr-light-gray: hsl(0, 0%, 81%);
@@ -21,7 +21,7 @@ html, body {
 }
 
 body {
-  background-color: var(--clr-purple);
+  background-color: var(--clr-green);
   font-family: 'Open Sans', sans-serif;
   color: var(--clr-white);
   font-size: 15px;
@@ -119,6 +119,12 @@ main {
   margin-bottom: 2.5rem;
 }
 
+.screenshot{
+width:80%;
+}
+.games h2{
+color:var(--clr-white)
+}
 /* Hero */
 .hero {
   display: flex;
@@ -129,7 +135,7 @@ main {
 
 .hero p {
   margin-top: 0.5rem;
-  background: var(--clr-purple);
+  background: var(--clr-green);
   color: var(--clr-white);
   display: inline-block;
   padding: 0.6rem 1.2rem;
@@ -195,7 +201,7 @@ main {
   padding: 0.7rem 1rem;
   border: 0;
   border-radius: 10px;
-  background: var(--clr-purple);
+  background: var(--clr-green);
   color: var(--clr-white);
   font-weight: 700;
   cursor: pointer;
@@ -220,7 +226,7 @@ main {
 }
 
 #projects h3 a {
-  color: var(--clr-purple);
+  color: var(--clr-green);
 }
 
 @media (min-width: 800px) {
