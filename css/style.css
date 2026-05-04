@@ -101,13 +101,13 @@ main {
 .skills,
 .goals,
 .contact,
-.foodApp,
+.cnn,
 .podcast,
 .game,
 .budget,
 .calculator {
   background-color: var(--clr-primary);
-  color: var(--clr-purple);
+  color: var(--clr-white);
   padding: 20px;
   border-radius: 15px;
   border: 3px solid var(--clr-white);
